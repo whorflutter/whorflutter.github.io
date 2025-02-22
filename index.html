@@ -1,77 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-            background: #ffffff;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #35424a;
-            color: #ffffff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A minimalistic Flutter website template for blogs and portfolios.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Minimal">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Minimal</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-
-<header>
-    <h1>欢迎来到我的个人网站</h1>
-</header>
-
-<main>
-    <section>
-        <h2>关于我</h2>
-        <p>这是一个简单的个人网站，用于展示我的项目和信息。</p>
-    </section>
-
-    <section>
-        <h2>我的项目</h2>
-        <ul>
-            <li><a href="#">项目 1</a></li>
-            <li><a href="#">项目 2</a></li>
-            <li><a href="#">项目 3</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>联系方式</h2>
-        <p>你可以通过以下方式联系我：</p>
-        <ul>
-            <li>Email: example@example.com</li>
-            <li>Twitter: @example</li>
-        </ul>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 我的个人网站</p>
-</footer>
-
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
